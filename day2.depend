@@ -1,6 +1,9 @@
 # depslib dependency file v1.0
-1731877020 source:/home/ahmed/c labs/day2/main.c
+1731929724 source:/home/ahmed/c labs/day2/main.c
 	<stdio.h>
+	<unistd.h>
+	<stdio.h>
+	<unistd.h>
 
 1731874019 source:/home/ahmed/c labs/day2/menu.c
 	<stdio.h>
