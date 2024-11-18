@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <conio.h>
 #include <ncurses.h>
 #include <curses.h>
 
-/*
+
 #include <stdio.h>
 
 
@@ -35,4 +34,4 @@ int main() {
     return 0;
 }
 
-*/
+

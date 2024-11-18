@@ -33,8 +33,7 @@ int main() {
 
         row = newRow;
         col = newCol;
-        fflush(stdout);
-        sleep(1);
+       
     }
 
 

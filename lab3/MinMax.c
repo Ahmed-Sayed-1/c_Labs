@@ -1,12 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define SIZE 100
 
 int main()
 {
-    int arr[8] = {5,6,7,8,9,10,11,12};
+    printf("enter the size of array");
+    int length =0;
+    scanf("%d" , &length);
+    int arr[SIZE] = {0};
+    for(int i = 0 ; i < length ; i++)
+     {
+     printf("enter elment  %d  ",i+1);
+     scanf("%d", &arr[i]);
+     }
     int min =arr[1];
     int max = arr[1];
-    for(int i = 0 ; i < 8 ; i++)
+    for(int i = 0 ; i < length ; i++)
     {
     if (arr[i] < min)
     min= arr[i];
