@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1731877020 source:/home/ahmed/c labs/day2/main.c
+	<stdio.h>
+
+1731874019 source:/home/ahmed/c labs/day2/menu.c
+	<stdio.h>
+	<stdlib.h>
+	<ncurses.h>
+	<curses.h>
+	<stdio.h>
+
+1731868911 source:/home/ahmed/c labs/day2/sum.c
+	<stdio.h>
+	<stdlib.h>
+	<ncurses.h>
+	<curses.h>
+	<stdio.h>
+
+1731869903 source:/home/ahmed/c labs/day2/MulTable.c
+	<stdio.h>
+	<stdlib.h>
+	<ncurses.h>
+	<curses.h>
+	<stdio.h>
+
+1731870306 source:/home/ahmed/c labs/day2/desMul.c
+	<stdio.h>
+	<stdlib.h>
+	<ncurses.h>
+	<curses.h>
+	<stdio.h>
+
