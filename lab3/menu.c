@@ -8,18 +8,18 @@
 #define BACK 127
 #define ENTER 10
 void choiceOne(){
-SET_RED;
-printf("\033[%d;%dH", 2, 10);
+        SET_RED;
+        printf("\033[%d;%dH", 2, 10);
         printf("New \n");
         SET_WHITE;
-printf("\033[%d;%dH", 4, 10);
+        printf("\033[%d;%dH", 4, 10);
         printf("Display \n");
-printf("\033[%d;%dH", 6, 10);
+        printf("\033[%d;%dH", 6, 10);
         printf("Exit \n");
         }
 void choiceTwo(){
-SET_WHITE;
-printf("\033[%d;%dH", 2, 10);
+        SET_WHITE;
+        printf("\033[%d;%dH", 2, 10);
         printf("New \n");
         SET_RED;
         printf("\033[%d;%dH", 4, 10);
@@ -37,6 +37,7 @@ void choiceThree(){
         SET_RED;
         printf("\033[%d;%dH", 6, 10);
         printf("Exit \n");
+        SET_WHITE;
 
 }
 void main(){
